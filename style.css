@@ -1,0 +1,183 @@
+body {
+    font-family: 'Fredoka';
+    color: #000;
+}
+
+
+header {
+    display: flex;
+    margin: 20px auto 140px auto;
+    max-width: 1120px;
+    justify-content: space-between;
+    max-height: 35px;
+    align-items: center;
+
+}
+
+.listpunct-in-header {
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 31.35px;
+    
+}
+
+.listpunct-in-header::after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left:0;
+    bottom: -16px;
+    background-color: #000;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.listpunct-in-header:hover::after{
+    display: block;
+    bottom: -8px;
+    opacity: 1;
+}
+
+
+.listpunct-in-header:last-child {
+    margin-right: 0px;
+    align-items: center;
+}
+
+.nav-in-header {
+    display: inline-block;
+}
+
+.list-in-header {
+    display: inline-block;
+}
+
+.logo {
+    height: 23px;
+    width: 67.46px;
+}
+
+a {
+    font-family: 'Fredoka';
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.titling-greeting {
+    display: block;
+    margin: 0px 0px;
+    font-size: 60px;
+    font-weight: 600;
+    max-width: 360px;
+    max-height: 129px;
+}
+
+.titling {
+    position: relative;
+    margin: 0px auto;
+    max-width: 1056px;
+    height: 283px;
+}
+
+.titling-addition{
+    position: absolute;
+    top: 70px;
+    left: 480px;
+    font-size: 32px;
+    font-weight: 400;
+    width: 580px;
+}
+
+#side-in-titling {
+    width: 33px;
+    height: 38px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.text {
+    position: relative;
+    max-width: 480px;
+    margin: 0px;
+}
+
+
+.progect-name {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.project-description {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 356px;
+    margin-bottom: 30px;
+}
+
+.description-add {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.main {
+    max-width: 1120px; 
+    margin: 30px auto 0px auto;
+}
+
+.link-of-project {
+    position: absolute;
+    bottom: 10px;
+}
+
+.link-of-project::after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left:0;
+    bottom: -16px;
+    background-color: #000;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.link-of-project:hover::after {
+    bottom: -8px;
+    opacity: 1;
+}
+
+.block {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.block:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.footer {
+    display: flex;
+    margin: 60px auto 0px auto;
+    max-width: 1120px;
+    justify-content: space-between;
+    max-height: 35px;
+    align-items: center;
+
+}
+
+.social-icons {
+    width: 16px;
+    height: 16px;
+}
